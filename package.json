@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node api.js && ts-node-dev --transpile-only src/server.ts",
+    "dev": "ts-node-dev --transpile-only src/server.ts",
     "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
   },
   "keywords": [],
