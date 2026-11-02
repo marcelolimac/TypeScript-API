@@ -5,14 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node api.js && ts-node-dev --transpile-only src/server.ts",
+    "dev": "node init && ts-node-dev --transpile-only src/server.ts",
     "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.18.1",
+    "node-fetch": "^3.3.2",
     "pg": "^8.7.3",
     "reflect-metadata": "^0.1.13",
     "ts-node": "^10.8.2",
